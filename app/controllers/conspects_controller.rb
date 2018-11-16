@@ -1,5 +1,6 @@
 class ConspectsController < ApplicationController
   before_action :set_conspect, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
   # GET /conspects
   # GET /conspects.json

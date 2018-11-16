@@ -987,3 +987,491 @@ Processing by ConspectsController#index as HTML
 Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-16 11:09:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (1.9ms)
+  Rendered devise/menu/_registration_items.erb (2.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 230ms (Views: 223.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-16 11:09:44 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.0ms)
+  Rendered devise/menu/_registration_items.erb (0.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 21.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-16 11:09:45 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+  Rendered devise/menu/_registration_items.erb (0.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.3ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/conspects" for 127.0.0.1 at 2018-11-16 11:09:45 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (1.9ms)
+  Rendered devise/menu/_registration_items.erb (0.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-16 11:09:46 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.3ms)
+  Rendered devise/menu/_registration_items.erb (0.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-16 11:09:48 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.3ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (2.9ms)
+  Rendered devise/menu/_registration_items.erb (0.6ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-16 20:40:51 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (1.9ms)
+  Rendered devise/menu/_registration_items.erb (0.6ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-16 20:40:53 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.1ms)
+  Rendered devise/menu/_registration_items.erb (0.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-16 20:40:53 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.3ms)
+  Rendered devise/menu/_registration_items.erb (0.5ms)
+  Rendered devise/menu/_login_items.erb (0.4ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/conspects" for 127.0.0.1 at 2018-11-16 20:40:54 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.1ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (1.2ms)
+  Rendered devise/menu/_registration_items.erb (0.9ms)
+  Rendered devise/menu/_login_items.erb (0.7ms)
+  Rendered devise/menu/_conspects_items.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/conspects/new" for 127.0.0.1 at 2018-11-16 20:41:03 +0300
+Processing by ConspectsController#new as HTML
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (10.4ms)
+  Rendered conspects/new.html.erb within layouts/application (11.2ms)
+  Rendered devise/menu/_registration_items.erb (0.6ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 25.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/conspects/new" for 127.0.0.1 at 2018-11-16 20:47:18 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ConspectsController#new as HTML
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (4.8ms)
+  Rendered conspects/new.html.erb within layouts/application (5.7ms)
+  Rendered devise/menu/_registration_items.erb (2.5ms)
+  Rendered devise/menu/_login_items.erb (0.4ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 176ms (Views: 163.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-16 20:47:21 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+  Rendered devise/menu/_registration_items.erb (0.4ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 19.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-16 20:47:25 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y5Ru3BPZZhpCwBVfinRT9dcNsNhiqTpB9eE09MoeYChbnOBCIxmqh3t8rf9L8ZAvNTdw6CDrFpYm5YhTTsE1ZA==", "user"=>{"email"=>"mythbusterpeter@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mythbusterpeter@gmail.com"], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 125ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-16 20:47:25 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/conspects/new" for 127.0.0.1 at 2018-11-16 20:47:29 +0300
+Processing by ConspectsController#new as HTML
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (2.3ms)
+  Rendered conspects/new.html.erb within layouts/application (3.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/conspects" for 127.0.0.1 at 2018-11-16 20:47:39 +0300
+Processing by ConspectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kot8pPz1P81H+0H5E1tZ6/Ob0qOjXvfw0xxZuoXV5hU/6R6ikZL+EOe8coFLU4bSGrPog4a9lANBwox1htTXmg==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Create Conspect"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/conspects_controller.rb:30
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (3.9ms)
+  Rendered conspects/new.html.erb within layouts/application (5.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 22.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/conspects" for 127.0.0.1 at 2018-11-16 20:48:29 +0300
+Processing by ConspectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0TVMoL3kgU4mfBiBS3kHTj0ZbjdshgudVofmDfILXAIP+7WjbvJaxIsydRwaSse5aU7zXCx9DUt/ciA9howKsQ==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Create Conspect"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/conspects_controller.rb:30
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (3.4ms)
+  Rendered conspects/new.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/conspects" for 127.0.0.1 at 2018-11-16 20:49:04 +0300
+Processing by ConspectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uNxcZ9ENrfyUlBAzVhF7UHZ2vUFSvW5kyxf0tIL1CmNmEqVkAht2djnafa4HIrunIiEgKhJGaLLi4jKE9nJc0A==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Create Conspect"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/conspects_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/conspects_controller.rb:31
+  [1m[36mConspect Create (0.2ms)[0m  [1m[32mINSERT INTO "conspects" ("title", "description", "speciality_number", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Title"], ["description", "Description"], ["speciality_number", 444101], ["content", "Test"], ["user_id", 1], ["created_at", "2018-11-16 17:49:04.090328"], ["updated_at", "2018-11-16 17:49:04.090328"]]
+  ↳ app/controllers/conspects_controller.rb:31
+  [1m[35m (87.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+Redirected to http://localhost:3000/conspects/2
+Completed 302 Found in 118ms (ActiveRecord: 88.5ms)
+
+
+Started GET "/conspects/2" for 127.0.0.1 at 2018-11-16 20:49:04 +0300
+Processing by ConspectsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mConspect Load (0.3ms)[0m  [1m[34mSELECT  "conspects".* FROM "conspects" WHERE "conspects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/conspects_controller.rb:68
+  Rendering conspects/show.html.erb within layouts/application
+  Rendered conspects/show.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.4ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/conspects" for 127.0.0.1 at 2018-11-16 20:49:09 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/conspects/new" for 127.0.0.1 at 2018-11-16 20:50:04 +0300
+Processing by ConspectsController#new as HTML
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (1.9ms)
+  Rendered conspects/new.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (9.8ms)
+  Rendered devise/menu/_login_items.erb (0.4ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 26.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/conspects" for 127.0.0.1 at 2018-11-16 20:50:13 +0300
+Processing by ConspectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bPI4SFW3P2cRk9rXPZLp6aIefFNmwqkxsnRlW8X6hujBkFpOOND+urHU6a9lmjbQSzZGc0MhysIgqrCUxvu3Zw==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Create Conspect"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (4.2ms)
+  Rendered conspects/new.html.erb within layouts/application (5.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.4ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/conspects" for 127.0.0.1 at 2018-11-16 20:50:33 +0300
+Processing by ConspectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Oss+3DAyCsVaTzr0RFrW+ToqeAVBH07lI21ItXUshc+JdX4o9YTobgnUXaAIqussL80i1X/e+29eHMSoVPkpA==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Create Conspect"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (1.9ms)
+  Rendered conspects/new.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (16.5ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 33.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/conspects" for 127.0.0.1 at 2018-11-16 20:51:03 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  Rendered conspects/index.html.erb within layouts/application (10.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (9.0ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 33.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/conspects/new" for 127.0.0.1 at 2018-11-16 20:51:05 +0300
+Processing by ConspectsController#new as HTML
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (4.5ms)
+  Rendered conspects/new.html.erb within layouts/application (6.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.8ms)
+  Rendered devise/menu/_login_items.erb (0.4ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/conspects" for 127.0.0.1 at 2018-11-16 20:51:14 +0300
+Processing by ConspectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RK1ybfy90WsJnU38mFUfz1Mw3qKPYMKwM3+89/m7qi/pzxBrkdoQtqnafoTAXcD2uhjkgqqDoUOhoWk4+rqboA==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Create Conspect"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (2.3ms)
+  Rendered conspects/new.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.4ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 23.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/conspects" for 127.0.0.1 at 2018-11-16 20:51:26 +0300
+Processing by ConspectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fzd+YenYXzGHuWI3h6eRLtRhx8kmGSemVz+8V9cJr5DJ+YdiOs6Euyr3D6rWlFHZgDZaombiIXB+ynpno475Iw==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Create Conspect"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/conspects_controller.rb:31
+  Rendering conspects/new.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (2.1ms)
+  Rendered conspects/new.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (9.7ms)
+  Rendered devise/menu/_login_items.erb (0.4ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 27.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-16 20:53:41 +0300
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.7ms)
+  Rendered devise/menu/_registration_items.erb (0.4ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 29ms (Views: 18.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/conspects" for 127.0.0.1 at 2018-11-16 20:53:43 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conspects/index.html.erb:24
+  Rendered conspects/index.html.erb within layouts/application (11.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 32ms (Views: 27.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/conspects" for 127.0.0.1 at 2018-11-16 20:53:51 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conspects/index.html.erb:24
+  Rendered conspects/index.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/conspects/2/edit" for 127.0.0.1 at 2018-11-16 20:54:20 +0300
+Processing by ConspectsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mConspect Load (0.3ms)[0m  [1m[34mSELECT  "conspects".* FROM "conspects" WHERE "conspects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/conspects_controller.rb:68
+  Rendering conspects/edit.html.erb within layouts/application
+  Rendered conspects/_form.html.erb (2.5ms)
+  Rendered conspects/edit.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.4ms)
+  Rendered devise/menu/_login_items.erb (0.4ms)
+  Rendered devise/menu/_conspects_items.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/conspects/2" for 127.0.0.1 at 2018-11-16 20:54:24 +0300
+Processing by ConspectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0FnoqYpn9nX3CNgKTyIuEOFPYJt6vN3IuSg0+TV7+moWMESw2bo0X3tFW/gR6Ykbyn64QUB5GrXfDFZkbx0Yig==", "conspect"=>{"title"=>"Title", "description"=>"Description", "speciality_number"=>"444101", "content"=>"Test"}, "commit"=>"Update Conspect", "id"=>"2"}
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT  "conspects".* FROM "conspects" WHERE "conspects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/conspects_controller.rb:68
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conspects_controller.rb:45
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/conspects_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/conspects_controller.rb:45
+Redirected to http://localhost:3000/conspects/2
+Completed 302 Found in 7ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/conspects/2" for 127.0.0.1 at 2018-11-16 20:54:24 +0300
+Processing by ConspectsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT  "conspects".* FROM "conspects" WHERE "conspects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/conspects_controller.rb:68
+  Rendering conspects/show.html.erb within layouts/application
+  Rendered conspects/show.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/conspects" for 127.0.0.1 at 2018-11-16 20:54:25 +0300
+Processing by ConspectsController#index as HTML
+  Rendering conspects/index.html.erb within layouts/application
+  [1m[36mConspect Load (0.2ms)[0m  [1m[34mSELECT "conspects".* FROM "conspects"[0m
+  ↳ app/views/conspects/index.html.erb:18
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conspects/index.html.erb:24
+  Rendered conspects/index.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/devise/menu/_registration_items.erb:1
+  Rendered devise/menu/_registration_items.erb (1.4ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_conspects_items.erb (0.2ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.4ms)
+
+

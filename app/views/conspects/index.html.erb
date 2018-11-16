@@ -21,7 +21,7 @@
         <td><%= conspect.description %></td>
         <td><%= conspect.speciality_number %></td>
         <td><%= conspect.content %></td>
-        <td><%= conspect.user_id %></td>
+        <td><%= conspect.user.email %></td>
         <td><%= link_to 'Show', conspect %></td>
         <td><%= link_to 'Edit', edit_conspect_path(conspect) %></td>
         <td><%= link_to 'Destroy', conspect, method: :delete, data: { confirm: 'Are you sure?' } %></td>

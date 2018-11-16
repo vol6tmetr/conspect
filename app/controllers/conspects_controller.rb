@@ -25,6 +25,7 @@ class ConspectsController < ApplicationController
   # POST /conspects.json
   def create
     @conspect = Conspect.new(conspect_params)
+    @conspect.user_id = current_user.id
 
     respond_to do |format|
       if @conspect.save
@@ -69,6 +70,6 @@ class ConspectsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def conspect_params
-      params.require(:conspect).permit(:title, :description, :speciality_number, :content, :user_id)
+      params.require(:conspect).permit(:title, :description, :speciality_number, :content)
     end
 end

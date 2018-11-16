@@ -1,6 +1,7 @@
 class ConspectsController < ApplicationController
   before_action :set_conspect, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show]
+  before_action :conspect_owner, only: [:destroy, :update, :edit]
 
   # GET /conspects
   # GET /conspects.json
@@ -73,4 +74,12 @@ class ConspectsController < ApplicationController
     def conspect_params
       params.require(:conspect).permit(:title, :description, :speciality_number, :content)
     end
+
+    def conspect_owner
+      unless @conspect.user_id == current_user.id
+        flash[:notice] = 'Access denied as you are not owner of this conspect'
+        redirect_to root_path
+      end
+    end
+
 end

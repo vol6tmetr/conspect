@@ -1,0 +1,2 @@
+module ConspectsHelper
+end

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @conspect.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @conspect.description %>
+</p>
+
+<p>
+  <strong>Speciality number:</strong>
+  <%= @conspect.speciality_number %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @conspect.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @conspect.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_conspect_path(@conspect) %> |
+<%= link_to 'Back', conspects_path %>

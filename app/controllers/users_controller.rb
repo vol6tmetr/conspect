@@ -15,7 +15,7 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
-    @user = User.new
+    # @user = User.new
   end
 
   # GET /users/1/edit
@@ -70,11 +70,11 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:email)
+      params.require(:user).permit(:email, :admin, :blocked)
     end
 
     def user_admin
-      unless current_user.admin?
+      unless current_user.try(:admin?)
         flash[:notice] = 'Only admin can modify users'
         redirect_to root_path
       end

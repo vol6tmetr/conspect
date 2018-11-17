@@ -77,7 +77,7 @@ class ConspectsController < ApplicationController
 
     def conspect_modify_permission
       unless @conspect.user_id == current_user.id || current_user.admin?
-        flash[:notice] = 'Only admin or owner of this conspect can modify it'
+        flash[:notice] = 'Only admin or owner of conspect can modify it'
         redirect_to root_path
       end
     end

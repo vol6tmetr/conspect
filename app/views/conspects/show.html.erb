@@ -25,3 +25,16 @@
 
 <%= link_to 'Edit', edit_conspect_path(@conspect) %> |
 <%= link_to 'Back', conspects_path %>
+
+<hr>
+<p>
+  Comments:
+</p>
+
+<%= render 'comments/comment' %>
+
+<p>
+  Add comment:
+</p>
+
+<%= render 'comments/form' %>

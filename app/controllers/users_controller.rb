@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
-  before_action :user_admin
+  before_action :user_admin, only: [:show, :destroy, :update, :edit]
 
   # GET /users
   # GET /users.json
@@ -74,8 +74,8 @@ class UsersController < ApplicationController
     end
 
     def user_admin
-      unless current_user.try(:admin?)
-        flash[:notice] = 'Only admin can modify users'
+      unless current_user.try(:admin?) || current_user == @user
+        flash[:notice] = 'Only admin can modify other user account'
         redirect_to root_path
       end
     end

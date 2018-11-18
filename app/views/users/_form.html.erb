@@ -16,6 +16,8 @@
     <%= form.text_field :email %>
   </div>
 
+  <% if current_user.admin? %>
+
   <div class="field">
     <%= form.label :admin %>
     <%= form.check_box :admin %>
@@ -25,6 +27,8 @@
     <%= form.label :blocked %>
     <%= form.check_box :blocked %>
   </div>
+
+  <% end %>
 
   <div class="actions">
     <%= form.submit %>

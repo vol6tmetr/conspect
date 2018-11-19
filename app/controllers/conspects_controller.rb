@@ -6,7 +6,7 @@ class ConspectsController < ApplicationController
   # GET /conspects
   # GET /conspects.json
   def index
-    @conspects = Conspect.all
+    @conspects = Conspect.all.page params[:page]
   end
 
   # GET /conspects/1

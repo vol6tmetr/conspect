@@ -7,5 +7,10 @@ class Conspect < ApplicationRecord
   validates :speciality_number,presence: true, length: { maximum: 15}
   validates :content, presence: true
 
+  searchable do
+    text :title, :default_boost => 2
+    text :content
+  end
+
   paginates_per 10
 end

@@ -5,4 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable,
          :confirmable
   has_many :conspects, dependent: :destroy
+
+  acts_as_voter
+
+  paginates_per 10
 end

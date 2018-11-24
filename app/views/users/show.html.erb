@@ -3,14 +3,36 @@
   <%= @user.email %>
 </p>
 
-<p>
-  <strong>Admin:</strong>
-  <%= @user.admin %>
-</p>
-
-<p>
-  <strong>Blocked:</strong>
-  <%= @user.blocked %>
-</p>
-
 <%= link_to 'Edit', edit_user_path(@user) %>
+
+<p><%= @user.email %>'s conspects:</p>
+
+<table>
+  <thead>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Speciality number</th>
+    <th>Content</th>
+    <th colspan="3">Actions</th>
+  </tr>
+  </thead>
+
+  <tbody>
+    <% @conspects.each do |conspect| %>
+      <tr>
+        <td><%= conspect.title %></td>
+        <td><%= conspect.description %></td>
+        <td><%= conspect.speciality_number %></td>
+        <td><%= conspect.content %></td>
+        <td><%= link_to 'Show', conspect %></td>
+        <td><%= link_to 'Edit', edit_conspect_path(conspect) %></td>
+        <td><%= link_to 'Destroy', conspect, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New Conspect', new_conspect_path %>
+
+<%= paginate @conspects %>

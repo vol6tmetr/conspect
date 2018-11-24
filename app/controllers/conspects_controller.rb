@@ -6,7 +6,11 @@ class ConspectsController < ApplicationController
   # GET /conspects
   # GET /conspects.json
   def index
-    @conspects = Conspect.all.page params[:page]
+    @search = Conspect.search do
+      fulltext params[:search]
+      paginate page: params[:page], per_page: 10
+    end
+    @conspects = @search.results
   end
 
   # GET /conspects/1
@@ -62,6 +66,11 @@ class ConspectsController < ApplicationController
       format.html { redirect_to conspects_url, notice: 'Conspect was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def like
+    @comment.liked_by current_user
+    redirect_to conspect_path(@conspect)
   end
 
   private

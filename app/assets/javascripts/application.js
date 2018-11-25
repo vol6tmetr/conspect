@@ -16,4 +16,7 @@
 //= require jquery.turbolinks
 //= require jquery_ujs
 //= require jquery.raty
+//= require best_in_place
+//= require jquery-ui
+//= require best_in_place.jquery-ui
 //= require_tree .

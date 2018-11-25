@@ -3,6 +3,21 @@
   <%= @user.email %>
 </p>
 
+<p>
+  <strong>Name:</strong>
+  <%= best_in_place @user, :name %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= best_in_place @user, :gender, :as => :select, :collection => %w(Male Female) %>
+</p>
+
+<p>
+  <strong>Birth date:</strong>
+  <%= best_in_place @user, :date_of_birth, :as => :date %>
+</p>
+
 <%= link_to 'Edit', edit_user_path(@user) %>
 
 <p><%= @user.email %>'s conspects:</p>
@@ -16,6 +31,7 @@
     <th>Speciality number</th>
     <th>Content</th>
     <th>Rating</th>
+    <th>Created at:</th>
     <th colspan="3">Actions</th>
   </tr>
   </thead>
@@ -28,6 +44,7 @@
         <td><%= conspect.speciality_number %></td>
         <td><%= conspect.content %></td>
         <td><%= rating_for conspect, "rating", disable_after_rate: true, cancel: false %></td>
+        <td><%= conspect.created_at.strftime("%d-%m-%Y | %H-%M-%S") %></td>
         <td><%= link_to 'Show', conspect %></td>
         <td><%= link_to 'Edit', edit_conspect_path(conspect) %></td>
         <td><%= link_to 'Destroy', conspect, method: :delete, data: { confirm: 'Are you sure?' } %></td>

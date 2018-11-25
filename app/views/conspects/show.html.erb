@@ -11,6 +11,11 @@
 <p>Rating: <%= rating_for @conspect, "rating", disable_after_rate: true, cancel: false %></p>
 
 <p>
+  <strong>Created at:</strong>
+  <%= @conspect.created_at.strftime("%d-%m-%Y | %H-%M-%S") %>
+</p>
+
+<p>
   <strong>Speciality number:</strong>
   <%= @conspect.speciality_number %>
 </p>

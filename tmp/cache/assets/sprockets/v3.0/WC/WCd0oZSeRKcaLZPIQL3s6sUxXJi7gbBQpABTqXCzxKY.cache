@@ -1,0 +1,8 @@
+I"ˆ(function() {
+  jQuery(function() {
+    $('.best_in_place').best_in_place();
+    return $.datepicker.setDefaults;
+  });
+
+}).call(this);
+:ET

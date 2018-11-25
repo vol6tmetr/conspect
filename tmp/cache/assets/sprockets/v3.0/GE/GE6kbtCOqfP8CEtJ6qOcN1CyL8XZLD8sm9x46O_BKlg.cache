@@ -1,0 +1,14 @@
+I"(function() {
+  jQuery(function() {
+    $('.best_in_place').best_in_place();
+    return $.datepicker.setDefaults({
+      showOn: "both",
+      buttonImageOnly: true,
+      changeMonth: true,
+      changeYear: true,
+      dateFormat: 'dd-mm-yy'
+    });
+  });
+
+}).call(this);
+:ET

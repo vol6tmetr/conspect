@@ -1,0 +1,14 @@
+I"
+(function() {
+  jQuery(function() {
+    $('.best_in_place').best_in_place();
+    $.datepicker.setDefaults({
+      showOn: "both",
+      buttonImageOnly: true,
+      buttonText: "Calendar"
+    });
+    return $.datepicker.formatDate("dd-mm-yy");
+  });
+
+}).call(this);
+:ET

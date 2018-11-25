@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_24_133941) do
+ActiveRecord::Schema.define(version: 2018_11_25_101226) do
 
   create_table "average_caches", force: :cascade do |t|
     t.integer "rater_id"
@@ -85,6 +85,9 @@ ActiveRecord::Schema.define(version: 2018_11_24_133941) do
     t.datetime "confirmation_sent_at"
     t.string "unconfirmed_email"
     t.boolean "blocked", default: false
+    t.string "name", default: ""
+    t.string "gender", default: "Not specified"
+    t.date "date_of_birth"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

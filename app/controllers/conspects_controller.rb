@@ -6,7 +6,7 @@ class ConspectsController < ApplicationController
   # GET /conspects
   # GET /conspects.json
   def index
-    @search = Conspect.search do
+    @search = Conspect.solr_search do
       fulltext params[:search]
       paginate page: params[:page], per_page: 10
     end

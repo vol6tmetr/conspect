@@ -11,7 +11,10 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    @conspects = @user.conspects.page(params[:page]).per(10)
+    @conspects = @user.conspects.all
+    @search = @conspects.ransack(params[:q])
+    @search.build_condition
+    @conspects = @search.result.page(params[:page]).per(10)
   end
 
   # GET /users/new

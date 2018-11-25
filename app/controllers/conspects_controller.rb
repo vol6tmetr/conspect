@@ -36,7 +36,7 @@ class ConspectsController < ApplicationController
   # POST /conspects.json
   def create
     @conspect = Conspect.new(conspect_params)
-    @conspect.user_id = current_user
+    @conspect.user_id = current_user.id
 
     respond_to do |format|
       if @conspect.save

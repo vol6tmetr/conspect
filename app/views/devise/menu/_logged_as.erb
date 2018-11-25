@@ -1,0 +1,4 @@
+<% if user_signed_in? %>
+  <li><%= user_role %></li>
+  <li><%= link_to("My Account", current_user) %></li>
+<% end %>

@@ -1,0 +1,11 @@
+<%= form_for([@conspect, @conspect.comments.build]) do |form| %>
+
+  <p>
+    <%= form.text_area :content %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+
+<% end %>

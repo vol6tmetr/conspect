@@ -21,6 +21,8 @@ gem 'acts_as_votable', '~> 0.12.0'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
 gem 'ratyrate'
+gem 'jquery-rails'
+gem 'jquery-turbolinks'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

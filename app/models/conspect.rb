@@ -12,5 +12,7 @@ class Conspect < ApplicationRecord
     text :content
   end
 
+  ratyrate_rateable "rating"
+
   paginates_per 10
 end

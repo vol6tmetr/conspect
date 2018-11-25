@@ -8,5 +8,7 @@ class User < ApplicationRecord
 
   acts_as_voter
 
+  ratyrate_rater
+
   paginates_per 10
 end

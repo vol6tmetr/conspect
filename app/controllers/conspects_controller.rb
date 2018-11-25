@@ -10,7 +10,12 @@ class ConspectsController < ApplicationController
       fulltext params[:search]
       paginate page: params[:page], per_page: 10
     end
-    @conspects = @search.results
+    if @search.results.blank?
+      @conspects = Conspect.all.page params[:page]
+      flash[:notice] = 'Nothing found. Try to search something else'
+    else
+      @conspects = @search.results
+    end
   end
 
   # GET /conspects/1
@@ -31,7 +36,7 @@ class ConspectsController < ApplicationController
   # POST /conspects.json
   def create
     @conspect = Conspect.new(conspect_params)
-    @conspect.user_id = current_user.id
+    @conspect.user_id = current_user
 
     respond_to do |format|
       if @conspect.save
@@ -66,11 +71,6 @@ class ConspectsController < ApplicationController
       format.html { redirect_to conspects_url, notice: 'Conspect was successfully destroyed.' }
       format.json { head :no_content }
     end
-  end
-
-  def like
-    @comment.liked_by current_user
-    redirect_to conspect_path(@conspect)
   end
 
   private

@@ -6,52 +6,64 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/conspects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/conspects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/conspects_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/conspects_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/conspect.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/conspect.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/conspects/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/conspects/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/conspects/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/conspects/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/conspects/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/conspects/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/development.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r.fnm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r.nvd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r.nvm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r.si" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r_Lucene50_0.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r_Lucene50_0.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r_Lucene50_0.tim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_r_Lucene50_0.tip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s.fnm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s.nvd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s.nvm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s.si" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s_Lucene50_0.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s_Lucene50_0.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s_Lucene50_0.tim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_s_Lucene50_0.tip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/segments_t" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000018" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000020" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000021" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000022" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000023" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000024" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000025" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000026" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000027" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_12_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_13_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14_1.liv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_14_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/segments_14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000029" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000030" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000031" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000032" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000033" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000034" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000035" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000036" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/tlog/tlog.0000000000000000038" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9m/9m9YAaYHRJjgH49xdzShEmU6ndU83gU9zBG0dsgrF08.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9m/9m9YAaYHRJjgH49xdzShEmU6ndU83gU9zBG0dsgrF08.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/20/4a24087a35aa49" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/20/4a24087a35aa49" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/52/a28ee7360dbd7f" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/52/a28ee7360dbd7f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/75/11967460581d09" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/75/11967460581d09" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/75/49e556fbe37fec" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/75/49e556fbe37fec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/aa/ddc8aa9c6b0b2d" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/aa/ddc8aa9c6b0b2d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ce/b48da91dea2729" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ce/b48da91dea2729" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/e2/5acbd09c20706b" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/e2/5acbd09c20706b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/pids/server.pid" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" afterDir="false" />
     </list>
@@ -90,97 +102,133 @@
     <session id="-1333717271">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="11" />
+          <entry key="Gemfile" value="13" />
           <entry key="coffee" value="4" />
-          <entry key="css" value="1" />
-          <entry key="erb" value="183" />
+          <entry key="css" value="3" />
+          <entry key="erb" value="188" />
           <entry key="jbuilder" value="4" />
-          <entry key="js" value="10" />
-          <entry key="rb" value="232" />
-          <entry key="scss" value="2" />
+          <entry key="js" value="13" />
+          <entry key="rb" value="245" />
+          <entry key="scss" value="3" />
           <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="3" />
           <entry key="CoffeeScript" value="4" />
-          <entry key="JavaScript" value="10" />
-          <entry key="RHTML" value="183" />
-          <entry key="Ruby" value="247" />
-          <entry key="SCSS" value="2" />
+          <entry key="JavaScript" value="13" />
+          <entry key="RHTML" value="188" />
+          <entry key="Ruby" value="262" />
+          <entry key="SCSS" value="3" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="90" />
+          <entry key="Gemfile" value="92" />
           <entry key="coffee" value="87" />
-          <entry key="erb" value="3887" />
+          <entry key="css" value="2" />
+          <entry key="erb" value="4237" />
           <entry key="jbuilder" value="13" />
-          <entry key="js" value="24" />
-          <entry key="rb" value="6561" />
+          <entry key="js" value="41" />
+          <entry key="rb" value="6908" />
+          <entry key="scss" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSS" value="2" />
           <entry key="CoffeeScript" value="87" />
-          <entry key="JavaScript" value="24" />
-          <entry key="RHTML" value="3887" />
-          <entry key="Ruby" value="6664" />
+          <entry key="JavaScript" value="41" />
+          <entry key="RHTML" value="4237" />
+          <entry key="Ruby" value="7013" />
+          <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/conspect.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/conspects_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/conspects/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/conspects/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="418">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/_condition_fields.erb">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+            <state relative-caret-position="506">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,9 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/menu/_logged_as.erb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/conspects/edit.html.erb" />
@@ -228,30 +273,33 @@
         <option value="$PROJECT_DIR$/db/migrate/20181124133940_create_average_caches.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181124133941_create_overall_averages.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/conspects.coffee" />
-        <option value="$PROJECT_DIR$/app/views/conspects/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/conspects/all_conspects.html.erb" />
         <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20181125100128_add_name_to_users.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" />
         <option value="$PROJECT_DIR$/db/migrate/20181125101226_add_gender_and_birth_date_to_user.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users.scss" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181125111134_delete_rating_column_from_conspects.rb" />
-        <option value="$PROJECT_DIR$/app/views/conspects/show.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/helpers/conspects_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/rater_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/conspect.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/conspects_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/conspects/index.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/users.coffee" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_condition_fields.erb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/tag.rb" />
+        <option value="$PROJECT_DIR$/app/views/conspects/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/conspects.scss" />
+        <option value="$PROJECT_DIR$/app/views/conspects/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/conspects_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/conspect.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/conspects/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -266,7 +314,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="y" value="25" />
     <option name="width" value="960" />
@@ -301,6 +349,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conspect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conspect" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="conspect" type="b2602c69:ProjectViewProjectNode" />
@@ -504,20 +559,22 @@
       <workItem from="1542975723489" duration="4540000" />
       <workItem from="1543043817274" duration="15490000" />
       <workItem from="1543132316841" duration="5858000" />
-      <workItem from="1543139854228" duration="16327000" />
+      <workItem from="1543139854228" duration="16926000" />
+      <workItem from="1543175791738" duration="599000" />
+      <workItem from="1543216338122" duration="10188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93487000" />
+    <option name="totallyTimeSpent" value="104873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.28495198" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2913554" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -543,30 +600,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///var/lib/gems/2.5.0/gems/actionview-5.2.1/lib/action_view/helpers/url_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1219">
-          <caret line="195" column="10" selection-start-line="195" selection-start-column="10" selection-end-line="195" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_search.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/inheritance.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181117123914_add_blocked_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -619,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conspects/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conspects/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -672,13 +698,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20181116073030_create_conspects.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181125101226_add_gender_and_birth_date_to_user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181125100128_add_name_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -693,16 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -710,13 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181125111134_delete_rating_column_from_conspects.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181125111134_delete_rating_column_from_conspects.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20181124115608_add_rating_to_conspects.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -738,13 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -783,41 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/conspect.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conspects/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conspects/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/conspects_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="853">
@@ -832,31 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/users.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -867,10 +807,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181125101226_add_gender_and_birth_date_to_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181126072458_create_tags.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181126072614_create_taggings.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tag.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="76" column="91" selection-start-line="76" selection-start-column="91" selection-end-line="76" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/conspects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/conspects/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/conspect.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/conspects_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/conspects/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/conspects/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>

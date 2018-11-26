@@ -26,6 +26,8 @@ gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
 gem 'best_in_place', '~> 3.0.1'
 gem 'ransack'
+gem 'acts-as-taggable-on', '~> 6.0'
+gem 'rails-jquery-autocomplete'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

@@ -17,6 +17,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :tag_list, 'Tags' %>
+    <%= form.autocomplete_field :tag_list, autocomplete_tag_name_conspects_path, :"data-delimiter" => ', ' %>
+  </div>
+
+  <div class="field">
     <%= form.label :description %>
     <%= form.text_field :description %>
   </div>

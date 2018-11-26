@@ -7,6 +7,9 @@ class Conspect < ApplicationRecord
   validates :speciality_number,presence: true, length: { maximum: 15}
   validates :content, presence: true
 
+  acts_as_taggable
+  acts_as_taggable_on :tags
+
   searchable do
     text :title, :default_boost => 2
     text :content

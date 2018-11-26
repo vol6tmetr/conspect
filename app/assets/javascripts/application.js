@@ -18,5 +18,7 @@
 //= require jquery.raty
 //= require best_in_place
 //= require jquery-ui
+//= require jquery-ui/widgets/autocomplete
+//= require autocomplete-rails
 //= require best_in_place.jquery-ui
 //= require_tree .

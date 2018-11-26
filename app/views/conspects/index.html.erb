@@ -1,10 +1,20 @@
 <h1>Conspects</h1>
 
+<p>Tag cloud:</p>
+<div id="tag_cloud">
+  <% tag_cloud Conspect.tag_counts, %w[s m l] do |tag, css_class| %>
+    <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+  <% end %>
+</div>
+
+<br>
+
 <table>
   <thead>
     <tr>
       <th>Title</th>
       <th>Description</th>
+      <th>Tags</th>
       <th>Speciality number</th>
       <th>Content</th>
       <th>Rating</th>
@@ -19,6 +29,7 @@
       <tr>
         <td><%= conspect.title %></td>
         <td><%= conspect.description %></td>
+        <td><%= raw conspect.tag_list.map { |t| link_to t, tag_path(t)}.join(', ') %></td>
         <td><%= conspect.speciality_number %></td>
         <td><%= conspect.content %></td>
         <td><%= rating_for conspect, "rating", disable_after_rate: true, cancel: false %></td>

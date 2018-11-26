@@ -3,6 +3,8 @@ class ConspectsController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
   before_action :conspect_modify_permission, only: [:destroy, :update, :edit]
 
+  autocomplete :tag, :name, :class_name => 'ActsAsTaggableOn::Tag'
+
   # GET /conspects
   # GET /conspects.json
   def index
@@ -10,11 +12,13 @@ class ConspectsController < ApplicationController
       fulltext params[:search]
       paginate page: params[:page], per_page: 10
     end
-    if @search.results.blank?
+    if @search.results.empty?
       @conspects = Conspect.all.page params[:page]
-      flash[:notice] = 'Nothing found. Try to search something else'
     else
       @conspects = @search.results
+    end
+    if params[:tag]
+      @conspects = Conspect.tagged_with(params[:tag]).page params[:page]
     end
   end
 
@@ -81,7 +85,7 @@ class ConspectsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def conspect_params
-      params.require(:conspect).permit(:title, :description, :speciality_number, :content)
+      params.require(:conspect).permit(:title, :description, :speciality_number, :content, :tag_list)
     end
 
     def conspect_modify_permission

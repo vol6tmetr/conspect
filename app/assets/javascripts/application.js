@@ -21,4 +21,5 @@
 //= require jquery-ui/widgets/autocomplete
 //= require autocomplete-rails
 //= require best_in_place.jquery-ui
+//= require trix
 //= require_tree .

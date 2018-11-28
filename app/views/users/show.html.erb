@@ -58,7 +58,7 @@
           <td><%= conspect.title %></td>
           <td><%= conspect.description %></td>
           <td><%= conspect.speciality_number %></td>
-          <td><%= conspect.content %></td>
+          <td><%= sanitize conspect.content %></td>
           <td><%= rating_for conspect, "rating", disable_after_rate: true, cancel: false %></td>
           <td><%= conspect.created_at.strftime("%d-%m-%Y | %H-%M-%S") %></td>
           <td><%= link_to 'Show', conspect %></td>

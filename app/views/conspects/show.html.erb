@@ -26,13 +26,16 @@
 </p>
 
 <p>
+  <hr>
   <strong>Content:</strong>
-  <%= @conspect.content %>
+  <%= sanitize @conspect.content %>
+  <hr>
 </p>
 
 <p>
   <strong>User:</strong>
   <%= @conspect.user.email %>
+  <hr>
 </p>
 
 <%= link_to 'Edit', edit_conspect_path(@conspect) %> |

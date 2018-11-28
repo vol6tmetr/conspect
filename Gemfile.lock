@@ -87,6 +87,8 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
+    down (4.7.0)
+      addressable (~> 2.5)
     erubi (1.7.1)
     execjs (2.7.0)
     faraday (0.15.3)
@@ -209,6 +211,8 @@ GEM
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
+    shrine (2.13.0)
+      down (~> 4.1)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -232,6 +236,8 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.8)
+    trix (0.10.1)
+      rails
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -278,11 +284,13 @@ DEPENDENCIES
   ratyrate
   sass-rails (~> 5.0)
   selenium-webdriver
+  shrine
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
   sunspot_rails
   sunspot_solr
+  trix
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)

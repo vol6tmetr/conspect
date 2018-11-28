@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_26_090519) do
+ActiveRecord::Schema.define(version: 2018_11_27_083845) do
 
   create_table "average_caches", force: :cascade do |t|
     t.integer "rater_id"
@@ -42,12 +42,24 @@ ActiveRecord::Schema.define(version: 2018_11_26_090519) do
     t.index ["user_id"], name: "index_conspects_on_user_id"
   end
 
+  create_table "images", force: :cascade do |t|
+    t.text "image_data"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "overall_averages", force: :cascade do |t|
     t.string "rateable_type"
     t.integer "rateable_id"
     t.float "overall_avg", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "photos", force: :cascade do |t|
+    t.text "image_data"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "rates", force: :cascade do |t|

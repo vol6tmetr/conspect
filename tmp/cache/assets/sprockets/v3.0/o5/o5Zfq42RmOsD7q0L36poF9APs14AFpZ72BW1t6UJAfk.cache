@@ -1,0 +1,25 @@
+I"†(function() {
+  App.conspect_comments = App.cable.subscriptions.create("ConspectCommentsChannel", {
+    connected: function() {},
+    disconnected: function() {},
+    received: function(data) {
+      return alert(data['message']);
+    },
+    comment: function(message) {
+      return this.perform('comment', {
+        message: message
+      });
+    }
+  });
+
+  $(document).on('keypress', '[data-behaviour~=room_speaker]', function(event) {
+    if (event.keyCode === 13) {
+      App.conspect_comments.comment(event.target.value);
+      event.target.value = '';
+      event.preventDefault();
+      return event.submit();
+    }
+  });
+
+}).call(this);
+:ET

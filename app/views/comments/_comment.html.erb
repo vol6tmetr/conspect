@@ -2,8 +2,8 @@
   <p><%= comment.user_name %></p>
   <p><%= comment.content %></p>
   <%= link_to like_conspect_comment_path(comment), method: :put do %>
-    <button>Like</button>
-    <span><%= comment.get_likes.size %></span>
+    <button class="btn btn-primary">Like</button>
+    <span>Likes: <%= comment.get_likes.size %></span>
   <% end %>
   <hr>
 <% end %>

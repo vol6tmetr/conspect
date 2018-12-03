@@ -13,6 +13,8 @@ class Conspect < ApplicationRecord
   searchable do
     text :title, :default_boost => 2
     text :content
+    text :description
+    text :speciality_number
   end
 
   ratyrate_rateable "rating"

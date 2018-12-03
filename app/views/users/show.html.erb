@@ -1,54 +1,57 @@
+<h3 class="text-center mb-3 mt-3">User info</h3>
+
+<form class="mt-3">
+  <div class="form-group">
+    <label>Email:</label>
+    <%= @user.email %>
+  </div>
+  <div class="form-group">
+    <label>Name:</label>
+    <%= best_in_place @user, :name, inner_class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <label>Gender:</label>
+    <%= best_in_place @user, :gender, :as => :select, :collection => %w(Male Female), inner_class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <label>Birth date:</label>
+    <%= best_in_place @user, :date_of_birth, :as => :date %>
+  </div>
+
+  <%= link_to 'Edit', edit_user_path(@user), class: "d-flex justify-content-center" %>
+
+</form>
+
 <hr>
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
-
-<p>
-  <strong>Name:</strong>
-  <%= best_in_place @user, :name %>
-</p>
-
-<p>
-  <strong>Gender:</strong>
-  <%= best_in_place @user, :gender, :as => :select, :collection => %w(Male Female) %>
-</p>
-
-<p>
-  <strong>Birth date:</strong>
-  <%= best_in_place @user, :date_of_birth, :as => :date %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(@user) %>
-
-<p><%= @user.email %>'s conspects:</p>
 
 <% if !@user.conspects.blank? %>
 
-  <hr>
-  <p>Filter:</p>
+  <label>Filter:</label>
   <%= search_form_for @search, url: user_url do |f| %>
     <%= f.condition_fields do |c| %>
       <%= render 'condition_fields', f: c %>
     <% end %>
     <div>
-      <p><%= link_to_add_fields "Add Conditions", f, :condition %></p>
-      <%= f.submit 'Search' %>
+      <label><%= link_to_add_fields "Add Conditions", f, :condition %></label>
+      <div class="d-flex justify-content-center">
+        <%= f.submit 'Filter', class: "btn btn-primary" %>
+      </div>
     </div>
     <hr>
-    <br>
   <% end %>
 
-  <table>
+  <h5 class="text-center mb-3"><%= @user.email %>'s conspects:</h5>
+
+  <div class="container">
+  <table class="mb-2">
     <thead>
     <tr>
-      <th><%= sort_link @search, :title, 'Title' %></th>
-      <th>Description</th>
-      <th><%= sort_link @search, :speciality_number, 'Speciality number' %></th>
-      <th>Content</th>
-      <th>Rating</th>
-      <th><%= sort_link @search, :created_at, 'Created at:' %></th>
-      <th colspan="3">Actions</th>
+      <th class="text-center"><%= sort_link @search, :title, 'Title' %></th>
+      <th class="text-center">Description</th>
+      <th class="text-center"><%= sort_link @search, :speciality_number, 'Speciality number' %></th>
+      <th class="text-center">Rating</th>
+      <th class="text-center"><%= sort_link @search, :created_at, 'Created at:' %></th>
+      <th colspan="3" class="text-center">Actions</th>
     </tr>
     </thead>
 
@@ -58,7 +61,6 @@
           <td><%= conspect.title %></td>
           <td><%= conspect.description %></td>
           <td><%= conspect.speciality_number %></td>
-          <td><%= sanitize conspect.content %></td>
           <td><%= rating_for conspect, "rating", disable_after_rate: true, cancel: false %></td>
           <td><%= conspect.created_at.strftime("%d-%m-%Y | %H-%M-%S") %></td>
           <td><%= link_to 'Show', conspect %></td>
@@ -68,10 +70,17 @@
       <% end %>
     </tbody>
   </table>
-  <hr>
-    <%= link_to 'New Conspect', new_conspect_path %>
+  <div class="d-flex justify-content-center mb-2">
+    <%= link_to 'Create Conspect', new_conspect_path%>
+  </div>
   <% else %>
-    <p>No conspects are created yet. Want to make a first one? <%= link_to 'New Conspect', new_conspect_path %></p>
+    <h5 class="text-center">No conspects are created yet. Want to make a first one?</h5>
+    <div class="d-flex justify-content-center mb-2">
+      <%= link_to 'New Conspect', new_conspect_path %>
+    </div>
 <% end %>
+</div>
 
-<%= paginate @conspects %>
+<div class="d-flex justify-content-center">
+  <%= paginate @conspects %>
+</div>

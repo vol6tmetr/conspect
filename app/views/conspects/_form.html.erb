@@ -11,33 +11,39 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
-  </div>
+  <form>
 
-  <div class="field">
-    <%= form.label :tag_list, 'Tags' %>
-    <%= form.autocomplete_field :tag_list, autocomplete_tag_name_conspects_path, :"data-delimiter" => ', ' %>
-  </div>
+    <div class="form-group mt-3">
+      <%= form.label :title %>
+      <%= form.text_field :title, class: "form-control" %>
+    </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_field :description %>
-  </div>
+    <div class="form-group">
+      <%= form.label :tag_list, 'Tags' %>
+      <%= form.autocomplete_field :tag_list, autocomplete_tag_name_conspects_path, :"data-delimiter" => ', ', class: "form-control" %>
+    </div>
 
-  <div class="field">
-    <%= form.label :speciality_number %>
-    <%= form.number_field :speciality_number %>
-  </div>
+    <div class="form-group">
+      <%= form.label :description %>
+      <%= form.text_field :description, class: "form-control" %>
+    </div>
 
-  <div class="field">
-    <%= form.label :content %>
-    <%= form.hidden_field :content, id: :conspect_body %>
-    <trix-editor input="conspect_body"> </trix-editor>
-  </div>
+    <div class="form-group">
+      <%= form.label :speciality_number %>
+      <%= form.number_field :speciality_number, class: "form-control" %>
+    </div>
 
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+    <br>
+
+    <div class="form-group">
+      <%= form.hidden_field :content, id: :conspect_body %>
+      <trix-editor input="conspect_body"> </trix-editor>
+    </div>
+
+    <div class="actions d-flex justify-content-center mb-2">
+      <%= form.submit class: "btn btn-primary" %>
+    </div>
+
+  </form>
+
 <% end %>

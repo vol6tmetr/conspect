@@ -1,26 +1,24 @@
-<h1>Conspects</h1>
-
-<p>Tag cloud:</p>
-<div id="tag_cloud">
-  <% tag_cloud Conspect.tag_counts, %w[s m l] do |tag, css_class| %>
-    <%= link_to tag.name, tag_path(tag.name), class: css_class %>
-  <% end %>
+<div class="d-flex justify-content-center mt-3">
+  <div id="tag_cloud">
+    <% tag_cloud Conspect.tag_counts, %w[s m l] do |tag, css_class| %>
+      <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+    <% end %>
+  </div>
 </div>
 
 <br>
 
-<table>
+<table class="mb-2">
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Tags</th>
-      <th>Speciality number</th>
-      <th>Content</th>
-      <th>Rating</th>
-      <th>User</th>
-      <th>Created at:</th>
-      <th colspan="3"></th>
+      <th class="text-center">Title</th>
+      <th class="text-center">Description</th>
+      <th class="text-center">Tags</th>
+      <th class="text-center">Speciality number</th>
+      <th class="text-center">Rating</th>
+      <th class="text-center">User</th>
+      <th class="text-center">Created at:</th>
+      <th colspan="3" class="text-center">Actions</th>
     </tr>
   </thead>
 
@@ -30,8 +28,7 @@
         <td><%= conspect.title %></td>
         <td><%= conspect.description %></td>
         <td><%= raw conspect.tag_list.map { |t| link_to t, tag_path(t)}.join(', ') %></td>
-        <td><%= conspect.speciality_number %></td>
-        <td><%= sanitize conspect.content %></td>
+        <td class="text-center"><%= conspect.speciality_number %></td>
         <td><%= rating_for conspect, "rating", disable_after_rate: true, cancel: false %></td>
         <td><%= conspect.user.email %></td>
         <td><%= conspect.created_at.strftime("%d-%m-%Y | %H-%M-%S") %></td>
@@ -43,8 +40,10 @@
   </tbody>
 </table>
 
-<br>
+<div class="d-flex justify-content-center mb-2">
+<%= link_to 'Create Conspect', new_conspect_path%>
+</div>
 
-<%= link_to 'New Conspect', new_conspect_path %>
-
-<%= paginate @conspects %>
+<div class="d-flex justify-content-center">
+  <%= paginate @conspects %>
+</div>

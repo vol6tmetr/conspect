@@ -1,55 +1,42 @@
-<p>
+<h3 class="text-center mt-3">Conspect info:</h3>
+
+  <strong>Author:</strong>
+  <h6><%= @conspect.user.email %></h6>
+
   <strong>Title:</strong>
-  <%= @conspect.title %>
-</p>
+  <h6><%= @conspect.title %></h6>
 
-<p>
   <strong>Description:</strong>
-  <%= @conspect.description %>
-</p>
+  <h6><%= @conspect.description %></h6>
 
-<p>
   <strong>Tags:</strong>
-  <%= @conspect.tag_list %>
-</p>
+  <h6><%= @conspect.tag_list %></h6>
 
-<p>Rating: <%= rating_for @conspect, "rating", disable_after_rate: true, cancel: false %></p>
+  <strong>Rating:</strong>
+  <%= rating_for @conspect, "rating", disable_after_rate: true, cancel: false %>
 
-<p>
   <strong>Created at:</strong>
-  <%= @conspect.created_at.strftime("%d-%m-%Y | %H-%M-%S") %>
-</p>
+  <h6><%= @conspect.created_at.strftime("%d-%m-%Y | %H-%M-%S") %></h6>
 
-<p>
   <strong>Speciality number:</strong>
-  <%= @conspect.speciality_number %>
-</p>
+  <h6><%= @conspect.speciality_number %></h6>
 
-<p>
   <hr>
-  <strong>Content:</strong>
+  <h6 class="text-center">Conspect:</h6>
   <%= sanitize @conspect.content %>
   <hr>
-</p>
 
-<p>
-  <strong>User:</strong>
-  <%= @conspect.user.email %>
-  <hr>
-</p>
-
-<%= link_to 'Edit', edit_conspect_path(@conspect) %> |
-<%= link_to 'Back', conspects_path %>
+<div class="d-flex justify-content-center mb-2">
+  <%= link_to 'Edit ', edit_conspect_path(@conspect) %> |
+  <%= link_to ' Back', conspects_path %>
+</div>
 
 <hr>
-<p>
-  Comments:
-</p>
+
+<h3 class="text-center">Comments: <%= @conspect.comments.count %></h3>
 
 <%= render 'comments/comment' %>
 
-<p>
-  Add comment:
-</p>
+<h5 class="text-center">Add comment:</h5>
 
 <%= render 'comments/form' %>

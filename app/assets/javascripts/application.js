@@ -22,4 +22,6 @@
 //= require autocomplete-rails
 //= require best_in_place.jquery-ui
 //= require trix
+// = require popper
+// = require bootstrap-sprockets
 //= require_tree .

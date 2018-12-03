@@ -1,0 +1,12 @@
+I" (function() {
+  App.conspect_comments = App.cable.subscriptions.create("ConspectCommentsChannel", {
+    connected: function() {},
+    disconnected: function() {},
+    received: function(data) {},
+    comment: function() {
+      return this.perform('comment');
+    }
+  });
+
+}).call(this);
+:ET

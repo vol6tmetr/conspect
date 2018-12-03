@@ -2,7 +2,6 @@
   <% if user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
-
       <ul>
       <% user.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -11,26 +10,33 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
-  </div>
+  <form>
+    <div class="form-group">
+      <%= form.label :email %>
+      <%= form.text_field :email, class: "form-control" %>
+    </div>
 
-  <% if current_user.admin? %>
+    <% if current_user.admin? %>
 
-  <div class="field">
-    <%= form.label :admin %>
-    <%= form.check_box :admin %>
-  </div>
+    <div class="form-group">
+      <%= form.label :admin %>
+      <%= form.check_box :admin %>
+    </div>
 
-  <div class="field">
-    <%= form.label :blocked %>
-    <%= form.check_box :blocked %>
-  </div>
+    <div class="form-group">
+      <%= form.label :blocked %>
+      <%= form.check_box :blocked %>
+    </div>
 
-  <% end %>
+    <% end %>
 
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+    <div class="d-flex justify-content-center">
+      <div class="form-group">
+        <div class="actions">
+          <%= form.submit class: "btn btn-primary" %>
+        </div>
+      </div>
+    </div>
+
+  </form>
 <% end %>

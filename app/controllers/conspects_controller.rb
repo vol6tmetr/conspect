@@ -13,6 +13,7 @@ class ConspectsController < ApplicationController
       paginate page: params[:page], per_page: 10
     end
     if @search.results.empty?
+      flash[:error] = 'Nothing found'
       @conspects = Conspect.all.page params[:page]
     else
       @conspects = @search.results
